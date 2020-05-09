@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+            <title>Desafio 4-2: Card do Professor</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="/" class="active">Teachers</a>
+                <a href="/">Students</a>
+            </div>
+        </header>
+        {% block content %}{% endblock %}
+    </body>
+</html>

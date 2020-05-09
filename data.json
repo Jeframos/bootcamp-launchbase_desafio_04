@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Manuela Rodrigues",
+      "avatar_url": "http://www.uol.com",
+      "birth": 1398124800000,
+      "educationLevel": "mestrado",
+      "typeOfClass": "on",
+      "occupationArea": "História, Inglês",
+      "created_at": 1583464730964
+    }
+  ]
+}

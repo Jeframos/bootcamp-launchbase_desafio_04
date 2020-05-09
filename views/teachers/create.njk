@@ -1,0 +1,85 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<form class="card" method="POST" action="/teachers">
+    <section 
+        class="avatar" 
+        style="background: url(https://source.unsplash.com/collection/3096047/500x500) no-repeat top center/ cover">
+    </section>
+    <section class="details">
+        <h3>Cadastro Professor</h3>
+        <div class="item">
+            <div>Avatar</div>
+            <div>
+                <input 
+                    type="url"
+                    name="avatar_url"
+                    placeholder="http://"
+                >
+            </div>
+        </div>
+        
+        <div class="item">
+            <div>NOME</div>
+            <div>
+                <input
+                     type="text"
+                     name="name"
+                     placeholder="Informe seu nome completo"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>DATA DE NASCIMENTO</div>
+            <div>
+                <input 
+                    type="date" 
+                    name="birth"
+                >
+            </div>
+        </div>        
+
+        <div class="item">
+            <div>GRAU DE ESCOLARIDADE</div>
+            <div>
+                <select name="educationLevel">
+                    <option value="ensino_medio">ENSINO MÉDIO</option>
+                    <option value="superior_concluido">SUPERIOR CONCLUÍDO</option>
+                    <option value="mestrado">MESTRADO</option>
+                    <option value="doutorado">DOUTORADO</option>
+                </select>
+            </div>
+        </div>
+
+<!-- 
+    Avatar url: campo do tipo url para cadastrar o caminho da imagem do professor;
+    Nome completo: campo do tipo text;
+    Data de nascimento: campo do tipo date;
+    Grau de escolaridade: campo do tipo select (documentação do select) que deve conter as opções Ensino Médio Completo, Ensino Superior Completo, Mestrado e Doutorado;
+    Tipo de aula: campo do tipo radio que deve conter as opções Presencial e À distância;
+    Área de atuação: campo do tipo text que deve conter as informações das matérias que o professor pode lecionar.
+-->
+        <div class="item">
+            <div>TIPO DE AULA</div>
+            <div>
+                <span><input type="radio" name="typeOfClass" valeu="P">PRESENCIAL</span>
+                <span><input type="radio" name="typeOfClass" value="D">À DISTÂNCIA</span>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>ÁREA DE ATUAÇÃO</div>
+            <div>
+                <input 
+                    type="text" 
+                    name="occupationArea"
+                    placeholder="Matérias: Matemática, Português, Ciência..."
+                >
+            </div>
+        </div>
+
+        <button type="submit">SALVAR</button>
+    </section>
+</form>
+{% endblock %}
