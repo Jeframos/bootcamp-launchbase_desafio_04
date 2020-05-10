@@ -34,3 +34,13 @@ exports.post = function(req,res){
     })
     //return res.send(req.body)
 }
+
+exports.show = function(req,res){
+    const {id} = req.params
+
+    const foundTeachers = data.teachers.find(function(teacher){
+        return teacher.id == id
+    })
+
+    
+}
