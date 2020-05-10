@@ -34,3 +34,20 @@ exports.post = function(req,res){
     })
     //return res.send(req.body)
 }
+
+exports.show = function(req,res){
+    const {id} = req.params
+
+    const foundTeachers = data.teachers.find(function(teacher){
+        return teacher.id == id
+    })
+
+    const teacher_1 = {
+        ...foundTeachers,
+        age: age(foundTeachers.birth),
+        graduation: graduation(foundTeachers.educationLevel),
+        learning: foundTeachers.occupationArea.split(","),
+        created_at: new Intl.DateTimeFormat("pt-BR").format(foundTeachers.created_at)
+    }
+    return res.render("teachers/show", {teacher: teacher_1})
+}

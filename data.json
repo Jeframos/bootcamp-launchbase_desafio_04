@@ -6,9 +6,29 @@
       "avatar_url": "http://www.uol.com",
       "birth": 1398124800000,
       "educationLevel": "mestrado",
-      "typeOfClass": "on",
+      "typeOfClass": "D",
       "occupationArea": "História, Inglês",
       "created_at": 1583464730964
+    },
+    {
+      "id": 2,
+      "name": "Beatriz Rodrigues de Lima Ramos",
+      "avatar_url": "http://google.com.br",
+      "birth": 587433600000,
+      "educationLevel": "ensino_medio",
+      "typeOfClass": "D",
+      "occupationArea": "Ciência, Geográfia, História",
+      "created_at": 1589084737348
+    },
+    {
+      "id": 3,
+      "name": "Jefferson Silva Ramor",
+      "avatar_url": "http://www.google.com",
+      "birth": 544320000000,
+      "educationLevel": "superior_concluido",
+      "typeOfClass": "D",
+      "occupationArea": "Matemática, Português, Física",
+      "created_at": 1589084868460
     }
   ]
 }
