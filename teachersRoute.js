@@ -42,5 +42,12 @@ exports.show = function(req,res){
         return teacher.id == id
     })
 
-    
+    const teacher_1 = {
+        ...foundTeachers,
+        age: age(foundTeachers.birth),
+        graduation: graduation(foundTeachers.educationLevel),
+        learning: foundTeachers.occupationArea.split(","),
+        created_at: new Intl.DateTimeFormat("pt-BR").format(foundTeachers.created_at)
+    }
+    return res.render("teachers/show", {teacher: teacher_1})
 }
