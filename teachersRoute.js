@@ -1,5 +1,7 @@
 const fs = require("fs")
 const data = require("./data.json")
+const {age, graduation} = require("./utils")
+const Intl = require("intl")
 
 exports.post = function(req,res){
     const keys = Object.keys(req.body)
