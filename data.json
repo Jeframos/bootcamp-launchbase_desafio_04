@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Manuela Rodrigues",
-      "avatar_url": "http://www.uol.com",
+      "avatar_url": "https://source.unsplash.com/collection/3096047/500x500",
       "birth": 1398124800000,
       "educationLevel": "mestrado",
       "typeOfClass": "D",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Beatriz Rodrigues de Lima Ramos",
-      "avatar_url": "http://google.com.br",
+      "avatar_url": "https://source.unsplash.com/collection/3096047/500x500",
       "birth": 587433600000,
       "educationLevel": "ensino_medio",
       "typeOfClass": "D",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Jefferson Silva Ramor",
-      "avatar_url": "http://www.google.com",
+      "avatar_url": "https://source.unsplash.com/collection/3096047/500x500",
       "birth": 544320000000,
       "educationLevel": "superior_concluido",
       "typeOfClass": "D",
