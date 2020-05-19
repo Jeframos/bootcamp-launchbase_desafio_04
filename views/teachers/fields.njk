@@ -1,0 +1,86 @@
+<div class="item">
+    <div>Avatar</div>
+    <div>
+        <input 
+            type="url"
+            name="avatar_url"
+            placeholder="http://"
+            value="{{ teacher.avatar_url }}"
+        >
+    </div>
+</div>
+
+<div class="item">
+    <div>NOME</div>
+    <div>
+        <input
+                type="text"
+                name="name"
+                placeholder="Informe seu nome completo"
+                value="{{ teacher.name }}"
+        >
+    </div>
+</div>
+
+<div class="item">
+    <div>DATA DE NASCIMENTO</div>
+    <div>
+        <input 
+            type="date" 
+            name="birth"
+            value="{{ teacher.birth }}"
+        >
+    </div>
+</div>        
+
+<div class="item">
+    <div>GRAU DE ESCOLARIDADE</div>
+    <div>
+        <select name="educationLevel">
+            <option value="ensino_medio">ENSINO MÉDIO</option>
+            <option value="superior_concluido">SUPERIOR CONCLUÍDO</option>
+            <option value="mestrado">MESTRADO</option>
+            <option value="doutorado">DOUTORADO</option>
+        </select>
+    </div>
+</div>
+
+<div class="item">
+    <div>TIPO DE AULA</div>
+    <div>
+        <span>
+            <input 
+                type="radio" 
+                name="typeOfClass" 
+                valeu="P"
+                {% if teacher.typeOfClass == "P" %}
+                    checked
+                {% endif %}>
+                    PRESENCIAL
+        </span>
+        <span>
+            <input 
+                type="radio" 
+                name="typeOfClass" 
+                value="D"
+                {% if teacher.typeOfClass == "D" %}}
+                    checked
+                {% endif %}>
+                    À DISTÂNCIA
+        </span>
+    </div>
+</div>
+
+<div class="item">
+    <div>ÁREA DE ATUAÇÃO</div>
+    <div>
+        <input 
+            type="text" 
+            name="occupationArea"
+            placeholder="Matérias: Matemática, Português, Ciência..."
+            value="{{ teacher.occupationArea }}"
+        >
+    </div>
+</div>
+
+<button type="submit">SALVAR</button>
