@@ -18,6 +18,6 @@ routes.post("/teachers", teachersRoute.post)
 
 routes.get("/teachers/:id", teachersRoute.show)
 
-routes.post("/teachers/:id/edit", teachersRoute.edit)
+routes.get("/teachers/:id/edit", teachersRoute.edit)
 
 module.exports = routes
