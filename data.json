@@ -69,6 +69,36 @@
       "typeOfClass": "on",
       "occupationArea": "Bory Jump, Musculação",
       "created_at": 1589859429020
+    },
+    {
+      "id": 8,
+      "name": "Jefferson",
+      "avatar_url": "http://hixhsiayhdy",
+      "birth": -1314921600000,
+      "educationLevel": "mestrado",
+      "typeOfClass": "on",
+      "occupationArea": "Ciência, Geográfia, História",
+      "created_at": 1591450138779
+    },
+    {
+      "id": 9,
+      "name": "ADALBERTO JERONIMO DA SILVA",
+      "avatar_url": "http://google.com",
+      "birth": 515548800000,
+      "educationLevel": "doutorado",
+      "typeOfClass": "D",
+      "occupationArea": "Jiu Jitsu, Karate, Kung Fu",
+      "created_at": 1591450716740
+    },
+    {
+      "id": 10,
+      "name": "GABRIEL WENNA",
+      "avatar_url": "http://google.com.br",
+      "birth": 725241600000,
+      "educationLevel": "mestrado",
+      "typeOfClass": "P",
+      "occupationArea": "História, Inglês",
+      "created_at": 1591451028245
     }
   ]
 }
