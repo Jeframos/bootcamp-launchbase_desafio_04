@@ -18,6 +18,15 @@
                 value="{{teacher.id}}"
                 >
         </form>
+        <form method="POST" action="/teachers?_methodOverride=DELETE" id="form-delete">
+            <input 
+                type="hidden"
+                name="id"
+                value="{{teacher.id}}"
+                >
+
+            <button type="submit">DELETAR</button>
+        </form>
     </section>
 </div>
 {% endblock %}
