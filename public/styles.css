@@ -92,6 +92,7 @@ header{
 .details{
     padding: 32px;
     color: whitesmoke;
+    position: relative;
 }
 
 .details .item{
@@ -183,4 +184,17 @@ a.edit{
 #form-delete button[type="submit"]{
     margin-top: 8px;
     background-color: lightcoral;
+}
+
+/*As configurações abaixo dos IDs btn_save e btn_delete foram formatadas para deixar
+  um botão ao lado do outro!  */
+#btn_save{
+    width: 45%;
+}
+
+#btn_delete{
+    width: 40%;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
 }

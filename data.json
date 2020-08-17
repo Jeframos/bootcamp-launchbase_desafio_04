@@ -1,10 +1,10 @@
 {
   "teachers": [
     {
-      "id": 2,
+      "id": "2",
       "name": "Beatriz Rodrigues de Lima Ramos",
       "avatar_url": "https://source.unsplash.com/collection/3096047/500x500",
-      "birth": 587433600000,
+      "birth": 587520000000,
       "educationLevel": "ensino_medio",
       "typeOfClass": "D",
       "occupationArea": "Ciência, Geográfia, História",
